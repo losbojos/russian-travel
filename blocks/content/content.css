@@ -1,1 +1,7 @@
-.content {}
+.content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px red dotted;
+}
