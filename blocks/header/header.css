@@ -1,9 +1,31 @@
+/* FIGMA 1280 design (default) */
 .header {
-  width: 90%;
-  min-height: 42px;
-  max-height: 52px;
+
+  max-width: calc(100vw - 48px * 2);
   margin: 28px auto 0;
+  max-height: 52px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: calc(81.25vw + 96px);
+  }
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: calc(100vw - 16px * 2);
+    margin: 16px auto 0;
+    max-height: 42px;
+  }
 }
