@@ -4,4 +4,10 @@
   font-family: 'Inter', Arial, sans-serif;
   color: #ffffff;
   background-color: #2A2C2F;
+
+  /* cглаживание: */
+  -webkit-font-smoothing: antialiased;
+  /* В Safari и во всех браузерах на платформе Chromium (например, Google Chrome, Яндекс Браузер или Opera): */
+  -moz-osx-font-smoothing: grayscale;
+  /* В Mozilla Firefox */
 }
