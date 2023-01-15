@@ -1,3 +1,4 @@
+/* FIGMA 1280 design (default) */
 .lead__subtitle {
     font-family: 'Inter';
     font-style: normal;
@@ -5,5 +6,26 @@
     font-size: 30px;
     line-height: 1.12em;
     text-align: center;
-    margin-top: 32px;
+
+    margin: 32px auto 0;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {
+    .lead__subtitle {}
+}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+    .lead__subtitle {}
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 1.25em;
+
+        margin: 16px 16px 0;
+    }
 }

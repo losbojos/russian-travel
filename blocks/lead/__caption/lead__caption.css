@@ -1,3 +1,4 @@
+/* FIGMA 1280 design (default) */
 .lead__caption {
     font-family: 'Inter';
     font-style: normal;
@@ -9,5 +10,22 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     align-self: flex-start;
-    margin-top: 8px;
+    margin: 8px 0 0;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        margin: 8px auto 0 24px;
+    }
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .lead__caption {
+        margin: 8px auto 0 16px;
+    }
 }

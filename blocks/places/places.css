@@ -1,7 +1,32 @@
+/* FIGMA 1280 design (default) */
 .places {
-    margin: 52px auto 0;
-    max-width: 80%;
+    margin: 92px auto 0;
+    max-width: calc(21.875vw + 704px);
+
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {
+    .places {
+        /* -//-
+        */
+    }
+}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+    .places {
+        margin: 88px auto 0;
+        max-width: calc(81.25vw + 96px);
+    }
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .places {
+        margin: 64px auto 0;
+    }
 }

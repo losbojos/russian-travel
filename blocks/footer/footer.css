@@ -1,6 +1,25 @@
+/* FIGMA 1280 design (default) */
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 92px 48px 24px;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {
+    .footer {}
+}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+    .footer {}
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .footer {
+        flex-direction: column;
+        margin: 64px auto 24px 16px;
+    }
 }

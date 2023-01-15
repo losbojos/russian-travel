@@ -1,5 +1,28 @@
+/* FIGMA 1280 design (default) */
 .lead__image-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    margin-top: 64px;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {
+    .lead__image-container {
+        margin-top: 56px;
+    }
+}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {
+    .lead__image-container {
+        margin-top: 56px;
+    }
+}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .lead__image-container {
+        margin-top: 40px;
+    }
 }
