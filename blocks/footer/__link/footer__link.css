@@ -9,6 +9,8 @@
     color: #FFFFFF;
     text-decoration: none;
     margin: 0;
+
+    transition: opacity 0.2s ease-in;
 }
 
 .footer__link:hover {
