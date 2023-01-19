@@ -1,7 +1,7 @@
 /* FIGMA 1280 design (default) */
 .places {
     margin: 92px auto 0;
-    max-width: calc(21.875vw + 704px);
+    max-width: calc(21.875% + 704px);
 
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
 @media screen and (max-width: 1023px) {
     .places {
         margin: 88px auto 0;
-        max-width: calc(81.25vw + 96px);
+        max-width: calc(81.25% + 96px);
     }
 }
 

@@ -1,7 +1,7 @@
 /* FIGMA 1280 design (default) */
 .header {
 
-  max-width: calc(100vw - 48px * 2);
+  max-width: calc(100% - 48px * 2);
   margin: 28px auto 0;
 
   display: flex;
@@ -16,14 +16,14 @@
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: calc(81.25vw + 96px);
+    max-width: calc(81.25% + 96px);
   }
 }
 
 /* FIGMA 320 design (up to 425px) */
 @media screen and (max-width: 425px) {
   .header {
-    max-width: calc(100vw - 16px * 2);
+    max-width: calc(100% - 16px * 2);
     margin: 16px auto 0;
   }
 }

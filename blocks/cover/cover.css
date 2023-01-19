@@ -1,7 +1,7 @@
 /* FIGMA 1280 design (default) */
 .cover {
     margin: 92px 48px 0;
-    max-width: 2048px;
+    max-width: calc(100% - 48px * 2);
     align-self: stretch;
 
     background-image: url('../../images/cover-trains.jpg');
@@ -14,6 +14,7 @@
 @media screen and (max-width: 1279px) {
     .cover {
         margin: 92px 0 0;
+        max-width: 100%;
     }
 }
 

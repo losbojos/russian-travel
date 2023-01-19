@@ -12,7 +12,7 @@
 /* FIGMA 1024 design */
 @media screen and (max-width: 1279px) {
     .intro {
-        margin: 92px auto 0 calc(39.0625vw - 352px);
+        margin: 92px auto 0 calc(39.0625% - 352px);
     }
 }
 
