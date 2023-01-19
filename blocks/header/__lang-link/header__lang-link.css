@@ -11,10 +11,6 @@
     text-decoration-line: none;
 }
 
-.header__lang-link:not(:first-of-type) {
-    margin-left: 18px;
-}
-
 /* FIGMA 1024 design */
 @media screen and (max-width: 1279px) {}
 

@@ -7,13 +7,13 @@
 }
 
 /* FIGMA 1024 design */
-@media screen and (max-width: 1279px) {
-    .footer {}
-}
+@media screen and (max-width: 1279px) {}
 
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
-    .footer {}
+    .footer {
+        margin: 88px 24px 24px;
+    }
 }
 
 /* FIGMA 320 design (up to 425px) */

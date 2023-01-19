@@ -1,12 +1,12 @@
 /* FIGMA 1280 design (default) */
-.footer__nav {
+
+.footer__links-list-item {
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
 }
 
+.footer__links-list-item:not(:first-of-type) {
+    margin-left: 18px;
+}
 
 /* FIGMA 1024 design */
 @media screen and (max-width: 1279px) {}
@@ -16,7 +16,8 @@
 
 /* FIGMA 320 design (up to 425px) */
 @media screen and (max-width: 425px) {
-    .footer__nav {
-        flex-direction: column;
+    .footer__links-list-item:not(:first-of-type) {
+        margin-top: 32px;
+        margin-left: 0;
     }
 }
