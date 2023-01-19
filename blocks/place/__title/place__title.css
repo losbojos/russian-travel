@@ -11,12 +11,7 @@
 }
 
 /* FIGMA 1024 design */
-@media screen and (max-width: 1279px) {
-    .place__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
+@media screen and (max-width: 1279px) {}
 
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {

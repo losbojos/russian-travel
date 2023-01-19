@@ -15,19 +15,14 @@
 
 
 /* FIGMA 1024 design */
-@media screen and (max-width: 1279px) {
-    .footer__copyright {}
-}
+@media screen and (max-width: 1279px) {}
 
 /* FIGMA 768 design */
-@media screen and (max-width: 1023px) {
-    .footer__copyright {}
-}
+@media screen and (max-width: 1023px) {}
 
 /* FIGMA 320 design (up to 425px) */
 @media screen and (max-width: 425px) {
     .footer__copyright {
-        font-size: 14px;
         line-height: 14px;
         margin: 48px 0 0 0;
         text-align: left;

@@ -1,3 +1,20 @@
+/* FIGMA 1280 design (default) */
 .header__logo {
     object-fit: contain;
+    width: 176px;
+    height: 52px;
+}
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }

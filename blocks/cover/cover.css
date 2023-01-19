@@ -5,7 +5,7 @@
     align-self: stretch;
 
     background-image: url('../../images/cover-trains.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }

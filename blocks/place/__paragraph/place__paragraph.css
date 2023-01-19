@@ -5,7 +5,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    /* or 29px */
 
     color: #FFFFFF;
 
@@ -18,23 +17,12 @@
 
 
 /* FIGMA 1024 design */
-@media screen and (max-width: 1279px) {
-    .place__paragraph {
-        font-size: 18px;
-        line-height: 163%;
-    }
-
-    .place__paragraph:not(:first-of-type) {
-        margin-top: 27px;
-    }
-}
-
+@media screen and (max-width: 1279px) {}
 
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
-        line-height: 163%;
     }
 
     .place__paragraph:not(:first-of-type) {
@@ -45,13 +33,7 @@
 /* FIGMA 320 design (up to 425px) */
 @media screen and (max-width: 425px) {
     .place__paragraph {
-        font-size: 16px;
-        line-height: 163%;
         margin-left: 16px;
         margin-right: 16px;
-    }
-
-    .place__paragraph:not(:first-of-type) {
-        margin-top: 25px;
     }
 }

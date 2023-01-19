@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
     margin-top: 64px;
 }
 
@@ -14,11 +15,7 @@
 }
 
 /* FIGMA 768 design */
-@media screen and (max-width: 1023px) {
-    .lead__image-container {
-        margin-top: 56px;
-    }
-}
+@media screen and (max-width: 1023px) {}
 
 /* FIGMA 320 design (up to 425px) */
 @media screen and (max-width: 425px) {
