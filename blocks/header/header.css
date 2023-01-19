@@ -16,7 +16,7 @@
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: calc(81.25% + 96px);
+    max-width: calc(100% - 24px * 2);
   }
 }
 
