@@ -19,11 +19,14 @@
     }
 }
 
-/* FIGMA 320 design (up to 425px) */
-@media screen and (max-width: 425px) {
+/* ONLY FOR FOOTER Breakpoint */
+@media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
         margin: 64px auto 24px 16px;
         max-width: calc(100% - 16px * 2);
     }
 }
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {}

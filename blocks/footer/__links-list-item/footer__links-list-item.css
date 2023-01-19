@@ -14,10 +14,13 @@
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {}
 
-/* FIGMA 320 design (up to 425px) */
-@media screen and (max-width: 425px) {
+/* ONLY FOR FOOTER Breakpoint */
+@media screen and (max-width: 767px) {
     .footer__links-list-item:not(:first-of-type) {
         margin-top: 32px;
         margin-left: 0;
     }
 }
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {}

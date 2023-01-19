@@ -16,21 +16,16 @@
 }
 
 /* FIGMA 1024 design */
-@media screen and (max-width: 1279px) {
-    .cover__title {}
-}
+@media screen and (max-width: 1279px) {}
 
 
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
-    .cover__title {}
+    .cover__title {
+        font-size: calc(3.43px + 8.93vw);
+        line-height: calc(5.714px + 9.152vw);
+    }
 }
 
 /* FIGMA 320 design (up to 425px) */
-@media screen and (max-width: 425px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-        margin: 0 16px;
-    }
-}
+@media screen and (max-width: 425px) {}
