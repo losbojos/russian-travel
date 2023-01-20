@@ -11,8 +11,11 @@
     z-index: 1;
 
     text-align: center;
-    max-width: 560px;
     margin: 0;
+
+    /* max-width: 560px; */
+    max-width: 70%;
+
 }
 
 /* FIGMA 1024 design */
