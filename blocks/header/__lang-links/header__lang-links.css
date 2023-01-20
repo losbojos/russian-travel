@@ -1,6 +1,24 @@
+/* FIGMA 1280 design (default) */
 .header__lang-links {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    margin-bottom: 7px;
+    /* Подгон под макет */
 }
+
+/* FIGMA 1024 design */
+@media screen and (max-width: 1279px) {
+    .header__lang-links {
+        margin-bottom: 4px;
+        /* Подгон под макет */
+    }
+}
+
+/* FIGMA 768 design */
+@media screen and (max-width: 1023px) {}
+
+/* FIGMA 320 design (up to 425px) */
+@media screen and (max-width: 425px) {}

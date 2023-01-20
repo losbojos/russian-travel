@@ -3,12 +3,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 1.12em;
+    line-height: 36px;
     text-align: center;
 
     margin: 32px auto 0;
-
-    max-width: 100%;
+    max-width: 640px;
 }
 
 /* FIGMA 1024 design */
@@ -28,5 +27,6 @@
 @media screen and (max-width: 425px) {
     .lead__subtitle {
         margin: 16px 16px 0;
+        max-width: 100%;
     }
 }
