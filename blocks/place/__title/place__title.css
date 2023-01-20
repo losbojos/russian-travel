@@ -4,7 +4,7 @@
     font-weight: 900;
 
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
 
     margin: 0;
     max-width: 330px;
@@ -16,8 +16,9 @@
 /* FIGMA 768 design */
 @media screen and (max-width: 1023px) {
     .place__title {
-        font-size: 42px;
-        line-height: 46px;
+        /* font-size: 42px; */
+        font-size: calc(24.857px + 2.232vw);
+        line-height: 110%;
     }
 }
 
@@ -25,7 +26,8 @@
 @media screen and (max-width: 425px) {
     .place__title {
         font-size: 32px;
-        line-height: 35px;
+        line-height: 109%;
+
         margin-left: 16px;
         margin-right: 16px;
     }
