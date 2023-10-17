@@ -16,3 +16,6 @@
 * Редактор кода [Visual Studio Code](https://code.visualstudio.com) или другой
 * Система контроля версий [Git](https://git-scm.com/downloads)
 * Браузер Chrome, Firefox или др.
+
+## Статус
+Проект завершен
